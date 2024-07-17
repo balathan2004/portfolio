@@ -26,11 +26,13 @@
     max-height: max-content;
     overflow: hidden;
   }
-}
 
-@media (max-width: 500px) {
   .page {
     min-height: max-content;
   padding-bottom: 2rem;
   }
+}
+
+@media (max-width: 500px) {
+  
 }

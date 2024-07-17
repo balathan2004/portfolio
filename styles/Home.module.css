@@ -199,13 +199,12 @@
 }
 
 .four .content_details article a:hover span {
- display: block;
+  display: block;
   left: 50%;
   transform: translateX(-50%);
   top: 50%;
   color: black;
   font-weight: 600;
-
 }
 
 .four .content_details article p {
@@ -250,17 +249,17 @@
 .five .content a {
   display: block;
   text-align: center;
- 
 }
 
-.five .content .lastButton{
+.five .content .lastButton {
   padding: 10px;
   text-decoration: none;
   background-color: lightgreen;
   border: 1px solid black;
   border-radius: 4px;
   color: black;
-  width: 90%;
+  width:fit-content;
+  width: -moz-fit-content;
   margin: auto;
   display: block;
 }
@@ -296,6 +295,15 @@
 }
 
 @media (max-width: 1000px) {
+  .first,
+  .second,
+  .three,
+  .four,
+  .five {
+    min-height: max-content;
+    height: auto;
+  }
+
   .first .right {
     display: none;
   }
@@ -310,15 +318,6 @@
 }
 
 @media (max-width: 500px) {
-  .first,
-  .second,
-  .three,
-  .four,
-  .five {
-    min-height: max-content;
-    height: auto;
-  }
-
   .first .left main h2 {
     text-align: center;
   }
@@ -375,14 +374,12 @@
     width: 100%;
   }
 
-  .five .right_content .content_icons{
+  .five .right_content .content_icons {
     flex-direction: column;
   }
 
-  .five .right_content .content_icons article{
- 
+  .five .right_content .content_icons article {
     width: 80%;
     margin: 2rem auto;
   }
-
 }
