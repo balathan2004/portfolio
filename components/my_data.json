@@ -1,0 +1,60 @@
+{
+  "about": {
+    "title": "about me",
+    "name": " Balasubramaniyam T",
+    "designation": "FullStack Js Developer",
+    "summary": "I am a dedicated full-stack JavaScript developer with a passion for creating dynamic and responsive web applications. My expertise spans across both front-end and back-end development, allowing me to build comprehensive solutions that meet diverse user needs. Proficient in JavaScript frameworks such as Next.js ,I have a strong foundation in web technologies and an eye for detail in user interface design"
+  },
+  "resume": {
+    "education": [
+      "Bachelors Degree in Computer Science",
+      "In Periyar University",
+      "2021 - 2024 "
+    ],
+    "skills": ["Front End", "Back End", "FullStack JavaScript"],
+    "projects worked in": [
+      "Online Learning Platform",
+      "Food Based Social Media",
+      "Audio Book Project"
+    ],
+    "programming languages": [
+      "JavaScript",
+      "ReactJs",
+      "NodeJs",
+      "ExpressJs",
+      "NextJs",
+      "TypeScript"
+    ],
+    "languages": ["Tamil", "English"]
+  },
+  "projects": [
+    {
+      "link": "https://rational-cyberlabs.vercel.app/",
+      "name": "Rational CyberLabs",
+      "imgsrc": "/cyberlabs.jpg",
+      "summary": " Rational Cyberlabs a online learning platform with separate admin and user interfaces, enabling admins to manage videos and learners to view and interact with educational content"
+    },
+    {
+      "link": "https://wecaters.com/",
+      "name": "Wecaters",
+      "imgsrc": "/wecaters.jpg",
+      "summary": " WeCaters focusing on organizing caterers and culinary services, offering insights, reviews, and resources for event planning and catering"
+    },
+    {
+      "link": "https://nextjs-read.vercel.app/",
+      "name": "EBook Reader",
+      "imgsrc": "/ebook.jpg",
+      "summary": "EBook Reader , enabling users to convert written text into audio files seamlessly. Enhanced user accessibility and experience by integrating text-to-speech functionalities"
+    }
+  ],
+  "social":[{
+    "link":"https://github.com/masspravee",
+    "name":"github"
+  },{
+    "link":"https://www.linkedin.com/in/balasubramaniyam-t-219152293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "name":"linkedin"
+  },{
+    "link":"mailto:balasubramaniamt17@gmail.com",
+    "name":"mail"
+  }]
+}
