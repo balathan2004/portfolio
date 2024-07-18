@@ -5,7 +5,6 @@ import { ResumeArticle } from "./article";
 import myData from "./my_data.json";
 
 const ThirdPage: FC = () => {
-  const [show, setShow] = useState<boolean>(false);
   const resumeData: { [key: string]: string[] } = myData.resume;
   const resumeDataKeys = Object.keys(resumeData);
 
@@ -53,11 +52,7 @@ const ThirdPage: FC = () => {
             <h1>Resume</h1>
           </div>
           <div className={styles.content_details}>
-            {show ? (
-              <MainArticle />
-            ) : (
-              <HideArticleComponent setShow={setShow} />
-            )}
+            <MainArticle />
           </div>
         </div>
       </div>

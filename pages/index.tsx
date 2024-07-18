@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import FirstPage from "@/components/first";
 import SecondPage from "@/components/second";
-import SideBar from "@/components/sidebar";
+
 import ThirdPage from "@/components/third";
 import FourthPage from "@/components/four";
 import FivethPage from "@/components/five";
@@ -9,11 +9,19 @@ import FivethPage from "@/components/five";
 const Home: FC = () => {
   return (
     <div className="app">
-      <FirstPage />
+      <div className="container">
+        <div className="content">
+        <FirstPage />
+        </div>
+     
+      <div className="content">
       <SecondPage />
       <ThirdPage />
       <FourthPage />
-      <FivethPage />
+      </div>
+      </div>
+      
+  
     </div>
   );
 };

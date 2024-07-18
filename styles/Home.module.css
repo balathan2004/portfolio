@@ -3,34 +3,30 @@
 .three,
 .four,
 .five {
-  width: 100%;
-  min-height: 100vh;
-  height: max-content;
+  height: 100%;
   display: flex;
 }
 
-.first .left {
-  flex: 1;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.first {
+  position: fixed;
+  width: 50%;
+  z-index: 1;
 }
 
-.first .left main {
+.first main {
   padding: 4rem;
 }
 
-.first .left main > * {
+.first main > * {
   margin: 1rem 0;
 }
 
-.first .left main h2 {
+.first main h2 {
   font-weight: 700;
   font-size: 35px;
 }
 
-.first .left main label {
+.first main label {
   padding: 3px;
   background-color: skyblue;
   border-radius: 4px;
@@ -39,12 +35,22 @@
   width: max-content;
 }
 
-.first .left main p {
+.first main p {
   line-height: 30px;
   font-size: 18px;
 }
 
-.first .left button,
+.first main .handler span {
+  display: block;
+  line-height: 40px;
+  transition: 1s linear;
+}
+
+.first main .handler .active::before {
+  content: "---";
+}
+
+.first button,
 .second .content article button,
 .three .content_details button {
   width: 200px;
@@ -56,19 +62,6 @@
   text-transform: capitalize;
 }
 
-.first .right {
-  flex: 1;
-  background: url("/profile.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .second .content main h1 {
   margin: 1rem;
 }
@@ -77,8 +70,9 @@
   font-weight: 600;
 }
 
-.second .content main h1 .job {
+.second .content main .job {
   font-weight: 300;
+  margin-left: 1rem;
 }
 
 .second .content main p {
@@ -135,23 +129,19 @@
   font-weight: 500;
 }
 
-.right_content .content .content_details article {
-  width: 30%;
-  height: 100%;
-}
-
-.right_content .content .content_details,
 .resume_details {
   display: flex;
   justify-content: flex-start;
-  margin-top: 5rem;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 1rem;
   gap: 20px;
   position: relative;
   flex-wrap: wrap;
 }
 
 .resume_details article {
-  flex: 1 0 30%;
+  flex: 1;
   margin-bottom: 2rem;
 }
 
@@ -171,11 +161,14 @@
   list-style-type: square;
 }
 
-.four {
+.four .content_details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .four .content_details article {
-  width: 30%;
+  width: 100%;
 }
 
 .four .content_details article a {
@@ -191,10 +184,11 @@
 .four .content_details article a span {
   position: absolute;
   display: none;
+  text-transform: uppercase;
 }
 
 .four .content_details article a:hover img {
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .four .content_details article a:hover span {
@@ -211,69 +205,34 @@
   line-height: 25px;
 }
 
-.five .right_content .content {
-  margin-top: 4rem;
-}
-
-.five .right_content .content h1 {
-  text-align: center;
-  font-weight: 600;
-  font-size: 30px;
-}
-
-.five .right_content .content_icons {
+.socials {
   display: flex;
-  flex-wrap: wrap;
 }
 
-.five .right_content .content_icons article {
-  flex: 1 0 40%;
-  height: 100px;
-  margin: 2rem 0 2rem 2rem;
+.socials article {
+  margin: 1rem;
 }
 
-.five .right_content .content_icons article a {
+.socials article a {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
   text-decoration: none;
   color: black;
-  text-transform: capitalize;
 }
 
-.five .right_content .content_icons article .icon {
-  font-size: 50px;
-}
-
-.five .content a {
-  display: block;
-  text-align: center;
-}
-
-.five .content .lastButton {
-  padding: 10px;
-  text-decoration: none;
-  background-color: lightgreen;
-  border: 1px solid black;
-  border-radius: 4px;
-  color: black;
-  width:fit-content;
-  width: -moz-fit-content;
-  margin: auto;
-  display: block;
+.socials article .icon {
+  font-size: 35px;
 }
 
 .right_content {
   flex: 1;
-  padding: 4rem 2.5rem;
+  padding: 2rem 2.5rem;
   display: flex;
   flex-direction: column;
   background-color: white;
   position: relative;
-}
-
-.right_content .content_details {
-  flex: 1;
 }
 
 .title_box {
@@ -301,45 +260,55 @@
   .five {
     min-height: max-content;
     height: auto;
+    width: 100%;
   }
 
-  .first .right {
+  .first {
+    position: relative;
+    z-index: 0;
+    min-height: 100vh;
+    align-items: center;
+  }
+
+  .first main {
+    padding: 2rem;
+  }
+
+  .first main .handler {
     display: none;
-  }
-
-  .first .left main {
-    padding: 1rem;
-  }
-
-  .right_content {
-    padding: 1rem 0.5rem;
   }
 }
 
 @media (max-width: 500px) {
-  .first .left main h2 {
+  .first main h2 {
     text-align: center;
   }
 
   .right_content {
-    padding: 0.5rem;
+    padding: 1rem;
   }
 
   .title_box {
     padding: 0;
-    width: 90%;
+    width: 95%;
     margin: auto;
     font-size: 18px;
   }
 
-  .second .content main h1 {
-    margin: 1rem 0.5rem;
+  .content{
+    width: 95%;
+    margin: auto;
+  }
+
+  .second .content main h1 ,  .second .content main .job  {
+    margin: 1rem 0;
+    padding: 0;
     font-size: 22px;
   }
 
   .second .content main p {
     font-size: 18px;
-    margin: 0.5rem;
+    margin: 0;
   }
 
   .second .content article {
@@ -373,12 +342,15 @@
     width: 100%;
   }
 
-  .five .right_content .content_icons {
-    flex-direction: column;
-  }
-
-  .five .right_content .content_icons article {
+  .socials article {
     width: 80%;
     margin: 2rem auto;
   }
+
+  .three .resume_details{
+
+    width: 95%;
+    margin: auto;
+  }
+
 }

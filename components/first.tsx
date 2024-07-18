@@ -1,28 +1,69 @@
-import React, { FC } from "react";
+import React, { FC, useState,useRef } from "react";
 import styles from "/styles/Home.module.css";
+import my_data from "./my_data.json";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { SocialArticle, SocialProps } from "./article";
+
+type idProps = "4" | "2" | "3";
 
 const FirstPage: FC = () => {
+  const socials = my_data.social as SocialProps[];
+
+
+
+  const [activeKey, setActiveKey] = useState<idProps>("4");
+
+  function clickHandler(id: idProps) {
+    const page = document.getElementById(id);
+    page?.scrollIntoView({ behavior: "smooth" });
+    if (!isNaN(Number(id))) {
+      setActiveKey(id);
+    }
+  }
+
   return (
     <div className="page" id="1">
       <div className={styles.first}>
-        <div className={styles.left}>
-          <main>
-            <h2>Hi There!</h2>
-            <h2>I'm <span>Bala</span> </h2>
-            <label>Fullstack Js Developer</label>
-            <p>
-              Enthusiastic Full-stack JavaScript Developer with strong skills in
-              front-end (React) and back-end (NextJs, Express.js) development.
-              Knowledgeable in Firebase, MongoDB, and SQL. Experienced in
-              personal projects. Eager to learn, and passionate about creating
-              efficient, user-friendly web applications
-            </p>
-            <button>About Me</button>
-          </main>
-        </div>
-        <div className={styles.right}>
-        
-        </div>
+        <main>
+          <h2>Hi There!</h2>
+          <h2>
+            I'm <span>Bala</span>{" "}
+          </h2>
+          <label>Fullstack Js Developer</label>
+          <p>
+            A versatile Full Stack JavaScript developer, adept in creating
+            dynamic web applications with a focus on Next.js. Skilled in both
+            front-end and back-end development, delivering seamless user
+            experiences.
+          </p>
+          <div className={styles.handler}>
+            <span
+              className={activeKey == "2" ? styles.active : ""}
+              onClick={() => clickHandler("2")}
+            >
+              About Me
+            </span>
+            <span
+              className={activeKey == "3" ? styles.active : ""}
+              onClick={() => clickHandler("3")}
+            >
+              Resume
+            </span>
+            <span
+              className={activeKey == "4" ? styles.active : ""}
+              onClick={() => clickHandler("4")}
+            >
+              Portfolio
+            </span>
+          </div>
+
+          <div className={styles.socials}>
+            {socials.map((item, index) => {
+              return <SocialArticle key={index} data={item} />;
+            })}
+          </div>
+        </main>
       </div>
     </div>
   );

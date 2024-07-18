@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import styles from "../styles/Home.module.css";
 
 export interface ResumeProps {
@@ -18,12 +18,12 @@ export interface projectProps {
 
 export interface SocialProps {
   link: string;
-  name:  'github' | 'linkedin' | 'mail';
+  name: "github" | "linkedin" | "mail";
 }
 
 const ResumeArticle: FC<ResumeProps> = ({ title, args }) => {
   return (
-    <article >
+    <article>
       <h1>{title}</h1>
       <ul>
         {args.map((ele) => {
@@ -47,7 +47,12 @@ const ProjectArticle: FC<{ data: projectProps }> = ({ data }) => {
 };
 
 const SocialArticle: FC<{ data: SocialProps }> = ({ data }) => {
-  const icons = { github: faGithub, linkedin: faLinkedin, mail: faEnvelope };
+  const icons = {
+    github: faGithub,
+    linkedin: faLinkedin,
+    mail: faEnvelope,
+    developer_api: faCode,
+  };
 
   const currentIcon = icons[data.name];
   return (
@@ -55,11 +60,10 @@ const SocialArticle: FC<{ data: SocialProps }> = ({ data }) => {
       <article>
         <a href={data.link}>
           <FontAwesomeIcon className={styles.icon} icon={icons[data.name]} />
-       {data.name}
         </a>
       </article>
     </>
   );
 };
 
-export { ResumeArticle, ProjectArticle,SocialArticle };
+export { ResumeArticle, ProjectArticle, SocialArticle };
