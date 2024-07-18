@@ -5,21 +5,24 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { SocialArticle, SocialProps } from "./article";
 
-type idProps = "4" | "2" | "3";
+type idProps = "4" | "2" | "3"|null;
 
 const FirstPage: FC = () => {
   const socials = my_data.social as SocialProps[];
 
 
 
-  const [activeKey, setActiveKey] = useState<idProps>("4");
+  const [activeKey, setActiveKey] = useState<idProps>(null);
 
   function clickHandler(id: idProps) {
-    const page = document.getElementById(id);
-    page?.scrollIntoView({ behavior: "smooth" });
-    if (!isNaN(Number(id))) {
-      setActiveKey(id);
+    if(id){
+      const page = document.getElementById(id);
+      page?.scrollIntoView({ behavior: "smooth" });
+      if (!isNaN(Number(id))) {
+        setActiveKey(id);
+      }
     }
+  
   }
 
   return (
