@@ -37,6 +37,7 @@ const ResumeArticle: FC<ResumeProps> = ({ title, args }) => {
 const ProjectArticle: FC<{ data: projectProps }> = ({ data }) => {
   return (
     <article>
+      <h1>{data.name}</h1>
       <a href={data.link}>
         <span>{data.name}</span>
         <img src={data.imgsrc}></img>

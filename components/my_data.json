@@ -35,10 +35,16 @@
       "summary": " Rational Cyberlabs a online learning platform with separate admin and user interfaces, enabling admins to manage videos and learners to view and interact with educational content"
     },
     {
-      "link": "https://wecaters.com/",
-      "name": "Wecaters",
+      "link": "#",
+      "name": "Food Blog Site",
       "imgsrc": "/wecaters.jpg",
-      "summary": " WeCaters focusing on organizing caterers and culinary services, offering insights, reviews, and resources for event planning and catering"
+      "summary": " This site focusing on organizing caterers and culinary services, offering insights, reviews, and resources for event planning and catering"
+    },
+    {
+      "link": "https://minimal-blog-ivory.vercel.app/blog",
+      "name": "Minimal Blog",
+      "imgsrc": "/minimal_blog.png",
+      "summary": "The Minimal Blog site is built for simplicity, focusing on what matters most: sharing and enjoying each post. Start sharing your thoughts and capturing moments now!"
     },
     {
       "link": "https://nextjs-read.vercel.app/",
@@ -47,17 +53,22 @@
       "summary": "EBook Reader , enabling users to convert written text into audio files seamlessly. Enhanced user accessibility and experience by integrating text-to-speech functionalities"
     }
   ],
-  "social":[{
-    "link":"https://github.com/masspravee",
-    "name":"github"
-  },{
-    "link":"https://www.linkedin.com/in/balasubramaniyam-t-219152293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "name":"linkedin"
-  },{
-    "link":"mailto:balasubramaniamt17@gmail.com",
-    "name":"mail"
-  },{
-    "link":"/api/for_devs",
-    "name":"developer_api"
-  }]
+  "social": [
+    {
+      "link": "https://github.com/masspravee",
+      "name": "github"
+    },
+    {
+      "link": "https://www.linkedin.com/in/balasubramaniyam-t-219152293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "name": "linkedin"
+    },
+    {
+      "link": "mailto:balasubramaniamt17@gmail.com",
+      "name": "mail"
+    },
+    {
+      "link": "/api/for_devs",
+      "name": "developer_api"
+    }
+  ]
 }

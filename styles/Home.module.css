@@ -176,6 +176,12 @@
   width: 100%;
 }
 
+.four .content_details article h1 {
+  text-align: center;
+  line-height: 75px;
+}
+
+
 .four .content_details article a {
   display: inline-block;
   position: relative;
