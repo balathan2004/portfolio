@@ -29,6 +29,24 @@
   },
   "projects": [
     {
+      "link": "https://minimal-blog-ivory.vercel.app/blog",
+      "name": "Minimal Blog",
+      "imgsrc": "/minimal_blog.png",
+      "summary": "The Minimal Blog site is built for simplicity, focusing on what matters most: sharing and enjoying each post. Start sharing your thoughts and capturing moments now!"
+    },
+    {
+      "link": "https://collab-quotes.vercel.app/",
+      "name": "Collab Quotes",
+      "imgsrc": "/collab-quotes.png",
+      "summary": "Collab Quotes is a platform dedicated to inspiring teamwork and collaboration through meaningful and motivational quotes. It emphasizes the power of unity, sharing wisdom that resonates with individuals and teams striving for collective success."
+    },
+    {
+      "link": "https://nextjs-read.vercel.app/",
+      "name": "EBook Reader",
+      "imgsrc": "/ebook.png",
+      "summary": "EBook Reader , enabling users to convert written text into audio files seamlessly. Enhanced user accessibility and experience by integrating text-to-speech functionalities"
+    },
+    {
       "link": "https://rational-cyberlabs.vercel.app/",
       "name": "Rational CyberLabs",
       "imgsrc": "/cyberlabs.jpg",
@@ -39,18 +57,6 @@
       "name": "Food Blog Site",
       "imgsrc": "/wecaters.jpg",
       "summary": " This site focusing on organizing caterers and culinary services, offering insights, reviews, and resources for event planning and catering"
-    },
-    {
-      "link": "https://minimal-blog-ivory.vercel.app/blog",
-      "name": "Minimal Blog",
-      "imgsrc": "/minimal_blog.png",
-      "summary": "The Minimal Blog site is built for simplicity, focusing on what matters most: sharing and enjoying each post. Start sharing your thoughts and capturing moments now!"
-    },
-    {
-      "link": "https://nextjs-read.vercel.app/",
-      "name": "EBook Reader",
-      "imgsrc": "/ebook.jpg",
-      "summary": "EBook Reader , enabling users to convert written text into audio files seamlessly. Enhanced user accessibility and experience by integrating text-to-speech functionalities"
     }
   ],
   "social": [
