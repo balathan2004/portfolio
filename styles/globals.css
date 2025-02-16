@@ -26,18 +26,13 @@
 }
 
 @media (max-width: 1000px) {
-
-  .container{
+  .container {
     flex-direction: column;
   }
 
-
-  .content{
+  .content {
     width: 100%;
   }
-
-
-
 }
 
 @media (max-width: 500px) {

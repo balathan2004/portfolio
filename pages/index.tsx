@@ -11,17 +11,15 @@ const Home: FC = () => {
     <div className="app">
       <div className="container">
         <div className="content">
-        <FirstPage />
+          <FirstPage />
         </div>
-     
-      <div className="content">
-      <SecondPage />
-      <ThirdPage />
-      <FourthPage />
+
+        <div className="content">
+          <SecondPage />
+          <ThirdPage />
+          <FourthPage />
+        </div>
       </div>
-      </div>
-      
-  
     </div>
   );
 };
