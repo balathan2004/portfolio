@@ -3,7 +3,7 @@
     "title": "about me",
     "name": " Balasubramaniyam T",
     "designation": "FullStack Js Developer",
-    "summary": "I am a dedicated full-stack JavaScript developer with a passion for creating dynamic and responsive web applications. My expertise spans across both front-end and back-end development, allowing me to build comprehensive solutions that meet diverse user needs. Proficient in JavaScript frameworks such as Next.js ,I have a strong foundation in web technologies and an eye for detail in user interface design"
+    "summary": "I am a dedicated full-stack JavaScript developer with a passion for creating dynamic and responsive web applications. My expertise spans across both front-end and back-end development, allowing me to build comprehensive solutions that meet diverse user needs. Proficient in JavaScript frameworks such as Next.js and React Native, I have a strong foundation in web and mobile technologies and an eye for detail in user interface design."
   },
   "resume": {
     "education": [
@@ -11,15 +11,24 @@
       "In Periyar University",
       "2021 - 2024 "
     ],
-    "skills": ["Front End", "Back End", "FullStack JavaScript"],
+    "skills": [
+      "Front End",
+      "Back End",
+      "FullStack JavaScript",
+      "Android React Native"
+    ],
     "projects worked in": [
       "Online Learning Platform",
       "Food Based Social Media",
-      "Audio Book Project"
+      "Audio Book Project",
+      "Quotes Sharing Platform",
+      "Image Sharing Platform",
+      "Notes Taking App"
     ],
     "programming languages": [
       "JavaScript",
       "ReactJs",
+      "React Native",
       "NodeJs",
       "ExpressJs",
       "NextJs",
@@ -35,11 +44,24 @@
       "summary": "The Minimal Blog site is built for simplicity, focusing on what matters most: sharing and enjoying each post. Start sharing your thoughts and capturing moments now!"
     },
     {
+      "link": "#",
+      "name": "MinimalBlog Android App",
+      "imgsrc": "/minimal_blog.png",
+      "summary": "MinimalBlog Android App is a lightweight and clean blogging platform designed for mobile users. Built with React Native, it enables users to read, share, and engage with minimalistic yet impactful blog content."
+    },
+    {
       "link": "https://collab-quotes.vercel.app/",
       "name": "Collab Quotes",
       "imgsrc": "/collab-quotes.png",
       "summary": "Collab Quotes is a platform dedicated to inspiring teamwork and collaboration through meaningful and motivational quotes. It emphasizes the power of unity, sharing wisdom that resonates with individuals and teams striving for collective success."
     },
+    {
+      "link": "#",
+      "name": "CollabQuotes Android App",
+      "imgsrc": "/collab-quotes.png",
+      "summary": "CollabQuotes Android App brings the power of collaboration and motivation to mobile devices. Built using React Native, it allows users to access, share, and explore inspiring quotes seamlessly, promoting teamwork and unity."
+    },
+
     {
       "link": "https://nextjs-read.vercel.app/",
       "name": "EBook Reader",
@@ -51,11 +73,17 @@
       "name": "Rational CyberLabs",
       "imgsrc": "/cyberlabs.jpg",
       "summary": " Rational Cyberlabs a online learning platform with separate admin and user interfaces, enabling admins to manage videos and learners to view and interact with educational content"
+    },
+    {
+      "link": "https://rough-note.vercel.app",
+      "name": "Rough Note",
+      "imgsrc": "/rough_note.png",
+      "summary": "Rough Note is a simple and intuitive platform designed for quick and organized note-taking. It allows users to jot down ideas, tasks, and reminders effortlessly, ensuring that important thoughts are never lost."
     }
   ],
   "social": [
     {
-      "link": "https://github.com/masspravee",
+      "link": "https://github.com/balathan2004",
       "name": "github"
     },
     {

@@ -15,7 +15,7 @@ const FourthPage: FC = () => {
           </div>
           <div className={styles.content}>
             <div className={styles.content_title}>
-              <h1>Project Built by me</h1>
+              <h1>Projects Built by me</h1>
             </div>
             <div className={styles.content_details}>
               {projectData.map((item,index) => {
