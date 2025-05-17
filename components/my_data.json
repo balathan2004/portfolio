@@ -79,6 +79,18 @@
       "name": "Rough Note",
       "imgsrc": "/rough_note.png",
       "summary": "Rough Note is a simple and intuitive platform designed for quick and organized note-taking. It allows users to jot down ideas, tasks, and reminders effortlessly, ensuring that important thoughts are never lost."
+    },
+    {
+      "link": "#",
+      "name": "Rough Note Android App",
+      "imgsrc": "/rough_note.png",
+      "summary": "Rough Note Android App is a lightweight and user-friendly mobile application developed with React Native (Expo). It helps users quickly capture, organize, and manage their notes on the go. With a minimalistic interface and seamless performance, it ensures that ideas, tasks, and reminders are always at your fingertips."
+    },
+    {
+      "link": "#",
+      "name": "Bill Book",
+      "imgsrc": "/bill_book.png",
+      "summary": "Bill Book is a comprehensive expense tracking and budgeting web app built with Next.js, React, TypeScript, and Firebase. It empowers users to monitor their daily expenses, categorize spending, and maintain financial records effortlessly. With real-time updates, user authentication, and a clean interface, Bill Book simplifies personal finance management."
     }
   ],
   "social": [
