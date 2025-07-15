@@ -23,7 +23,8 @@
       "Audio Book Project",
       "Quotes Sharing Platform",
       "Image Sharing Platform",
-      "Notes Taking App"
+      "Notes Taking App",
+      "Daily Habit Tracker"
     ],
     "programming languages": [
       "JavaScript",
@@ -46,19 +47,19 @@
     {
       "link": "#",
       "name": "MinimalBlog Android App",
-      "imgsrc": "/minimal_blog.png",
+      "imgsrc": "/minimal_blog_android.jpg",
       "summary": "MinimalBlog Android App is a lightweight and clean blogging platform designed for mobile users. Built with React Native, it enables users to read, share, and engage with minimalistic yet impactful blog content."
     },
     {
       "link": "https://collab-quotes.vercel.app/",
       "name": "Collab Quotes",
-      "imgsrc": "/collab-quotes.png",
+      "imgsrc": "/collab_quotes.png",
       "summary": "Collab Quotes is a platform dedicated to inspiring teamwork and collaboration through meaningful and motivational quotes. It emphasizes the power of unity, sharing wisdom that resonates with individuals and teams striving for collective success."
     },
     {
       "link": "#",
       "name": "CollabQuotes Android App",
-      "imgsrc": "/collab-quotes.png",
+      "imgsrc": "/collab_quotes_android.jpg",
       "summary": "CollabQuotes Android App brings the power of collaboration and motivation to mobile devices. Built using React Native, it allows users to access, share, and explore inspiring quotes seamlessly, promoting teamwork and unity."
     },
 
@@ -83,7 +84,7 @@
     {
       "link": "#",
       "name": "Rough Note Android App",
-      "imgsrc": "/rough_note.png",
+      "imgsrc": "/rough_note_android.jpg",
       "summary": "Rough Note Android App is a lightweight and user-friendly mobile application developed with React Native (Expo). It helps users quickly capture, organize, and manage their notes on the go. With a minimalistic interface and seamless performance, it ensures that ideas, tasks, and reminders are always at your fingertips."
     },
     {
@@ -91,7 +92,14 @@
       "name": "Bill Book",
       "imgsrc": "/bill_book.png",
       "summary": "Bill Book is a comprehensive expense tracking and budgeting web app built with Next.js, React, TypeScript, and Firebase. It empowers users to monitor their daily expenses, categorize spending, and maintain financial records effortlessly. With real-time updates, user authentication, and a clean interface, Bill Book simplifies personal finance management."
-    }
+    },
+    {
+  "link": "#",
+  "name": "Life Tracker",
+  "imgsrc": "/life_tracker.jpg",
+  "summary": "Life Tracker is a mindful lifestyle and habit-tracking app developed with React Native (Expo), Express.js, and Firebase. It enables users to log daily routines, track wellness metrics, and reflect on personal growth. With a clean interface and secure cloud sync, Life Tracker helps users build consistency and stay aware of their everyday habits."
+}
+
   ],
   "social": [
     {

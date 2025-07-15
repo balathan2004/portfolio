@@ -1,4 +1,4 @@
-import React, { FC, useState,useRef } from "react";
+import React, { FC, useState,useRef, useEffect } from "react";
 import styles from "/styles/Home.module.css";
 import my_data from "./my_data.json";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
@@ -14,6 +14,8 @@ const FirstPage: FC = () => {
 
   const [activeKey, setActiveKey] = useState<idProps>(null);
 
+  const [lastUpdated,setLastUpdated]=useState("")
+
   function clickHandler(id: idProps) {
     if(id){
       const page = document.getElementById(id);
@@ -24,6 +26,42 @@ const FirstPage: FC = () => {
     }
   
   }
+
+
+  const getLastUpdated=()=>{
+    fetch("https://api.github.com/repos/balathan2004/portfolio/commits?path=components/my_data.json")
+  .then(res => res.json())
+  .then(data => {
+
+   
+    const lastUpdated = data[0].commit.committer.date;
+    const time = new Date(lastUpdated);
+    const now = new Date();
+    const diffMs = now.getTime() - time.getTime();
+    const diffMinutes = Math.floor(diffMs / (1000 * 60));
+    let display = "";
+
+    if (diffMinutes < 60) {
+      display = `${diffMinutes} minutes ago`;
+    } else if (diffMinutes < 1440) {
+      display = `${Math.floor(diffMinutes / 60)} hours ago`;
+    } else {
+      display = `${Math.floor(diffMinutes / 1440)} days ago`;
+    }
+    console.log(display)
+    setLastUpdated(display)
+
+  });
+
+  }
+
+  useEffect(()=>{
+    getLastUpdated()
+  },[])
+
+
+
+  
 
   return (
     <div className="page" id="1">
@@ -66,6 +104,7 @@ const FirstPage: FC = () => {
               return <SocialArticle key={index} data={item} />;
             })}
           </div>
+          <span>Last Updated {lastUpdated}</span>
         </main>
       </div>
     </div>

@@ -36,7 +36,7 @@ const ResumeArticle: FC<ResumeProps> = ({ title, args }) => {
 
 const ProjectArticle: FC<{ data: projectProps }> = ({ data }) => {
   return (
-    <article>
+    <article style={{display:"flex",flexDirection:"column"}}>
       <h1>{data.name}</h1>
       <a href={data.link}>
         <span>{data.name}</span>
