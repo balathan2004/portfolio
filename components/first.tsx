@@ -73,10 +73,7 @@ const FirstPage: FC = () => {
           </h2>
           <label>Fullstack Js Developer</label>
           <p>
-            A versatile Full Stack JavaScript developer, adept in creating
-            dynamic web applications with a focus on Next.js. Skilled in both
-            front-end and back-end development, delivering seamless user
-            experiences.
+            A versatile Full Stack JavaScript developer, adept in creating dynamic web and mobile applications with a focus on Next.js and React Native. Skilled in both front-end and back-end development, delivering seamless and responsive user experiences across platforms.
           </p>
           <div className={styles.handler}>
             <span

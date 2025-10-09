@@ -188,8 +188,13 @@
 
 .four .content_details article img {
   width: 100%;
+  max-height: 400px;
+  object-position: top;
+  object-fit: cover;
   cursor: pointer;
 }
+
+
 
 .four .content_details article a span {
   position: absolute;
@@ -261,6 +266,8 @@
   gap: 2rem;
   flex-wrap: wrap;
 }
+
+
 
 @media (max-width: 1000px) {
   .first,

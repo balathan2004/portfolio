@@ -40,7 +40,7 @@ const ProjectArticle: FC<{ data: projectProps }> = ({ data }) => {
       <h1>{data.name}</h1>
       <a href={data.link}>
         <span>{data.name}</span>
-        <img src={data.imgsrc}></img>
+        <img className="projectImage" src={data.imgsrc}></img>
       </a>
       <p>{data.summary}</p>
     </article>
