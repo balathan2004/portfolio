@@ -61,7 +61,7 @@ const Intro: FC = () => {
             I'm <span>Bala</span>{" "}
           </h2>
           <label>
-            Mobile & Full-Stack Developer | Kotlin, React Native, TypeScript
+            Mobile & Full-Stack Developer | React Native, TypeScript , Kotlin
           </label>
           <p>
             Android and React Native developer focused on building performant
