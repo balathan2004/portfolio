@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import styles from "/styles/Home.module.css";
-import myData from "./my_data.json";
-import { ProjectArticle, projectProps } from "./article";
+import myData from "../my_data.json";
+import { ProjectArticle, projectProps } from "../article";
 
 const FourthPage: FC = () => {
   const projectData: projectProps[] = myData.projects;

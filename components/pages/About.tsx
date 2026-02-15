@@ -1,7 +1,7 @@
 import React, { FC, useState } from "react";
 import styles from "/styles/Home.module.css";
 
-import myData from "./my_data.json";
+import myData from "../my_data.json";
 
 interface AboutPage {
   title: string;
@@ -10,7 +10,7 @@ interface AboutPage {
   summary: string;
 }
 
-const SecondPage: FC = () => {
+const About: FC = () => {
   const [aboutData, setAboutData] = useState<AboutPage>(myData.about);
 
   return (
@@ -36,4 +36,4 @@ const SecondPage: FC = () => {
   );
 };
 
-export default SecondPage;
+export default About;

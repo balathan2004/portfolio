@@ -1,8 +1,8 @@
 import React, { FC, useState } from "react";
 import styles from "/styles/Home.module.css";
-import { ResumeArticle } from "./article";
+import { ResumeArticle } from "../article";
 
-import myData from "./my_data.json";
+import myData from "../my_data.json";
 
 const ThirdPage: FC = () => {
   const resumeData: { [key: string]: string[] } = myData.resume;

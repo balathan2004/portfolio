@@ -2,8 +2,8 @@
   "about": {
     "title": "about me",
     "name": " Balasubramaniyam T",
-    "designation": "FullStack Js Developer",
-    "summary": "I am a dedicated Full Stack JavaScript developer with a strong focus on building high-performance Android and mobile applications. Skilled in frameworks like React Native and Next.js, I create seamless, responsive experiences that bridge web and mobile platforms. My expertise in front-end and back-end development enables me to craft complete, efficient solutions with a keen eye for detail in both design and functionality."
+    "designation": "FullStack TypeScript Developer",
+    "summary": "I am a TypeScript and React Native developer focused on building high-performance mobile applications. I also work with Android using Jetpack Compose and continuously expand my native development skills. Experienced in integrating native functionality with React Native and creating responsive, maintainable applications, I aim to deliver efficient and scalable mobile solutions."
   },
   "resume": {
     "education": [
@@ -12,28 +12,30 @@
       "2021 - 2024 "
     ],
     "skills": [
-      "Front End",
-      "Back End",
-      "FullStack JavaScript",
-      "Android React Native"
+      "FrontEnd development",
+      "BackEnd development",
+      "FullStack TypeScript ",
+      "React Native with native modules integration",
+      "Native Android Developement with Kotlin"
     ],
     "projects worked in": [
       "Online Learning Platform",
       "Food Based Social Media",
       "Audio Book Project",
-      "Quotes Sharing Platform",
-      "Image Sharing Platform",
-      "Notes Taking App",
-      "Daily Habit Tracker"
+      "Quotes Sharing Platform (Collab Quotes)",
+      "Image Sharing Platform (Minimal Blog)",
+      "Notes Taking App (Rough Note)",
+      "Daily Habit Tracker (Life Tracker)",
+      "Expense Tracking App (Bill Book)"
     ],
     "programming languages": [
-      "JavaScript",
       "ReactJs",
       "React Native",
-      "NodeJs",
       "ExpressJs",
       "NextJs",
-      "TypeScript"
+      "TypeScript",
+      "Java",
+      "Kotlin"
     ],
     "languages": ["Tamil", "English"]
   },
@@ -94,12 +96,11 @@
       "summary": "Bill Book is a comprehensive expense tracking and budgeting web app built with Next.js, React, TypeScript, and Firebase. It empowers users to monitor their daily expenses, categorize spending, and maintain financial records effortlessly. With real-time updates, user authentication, and a clean interface, Bill Book simplifies personal finance management."
     },
     {
-  "link": "#",
-  "name": "Life Tracker",
-  "imgsrc": "/life_tracker.jpg",
-  "summary": "Life Tracker is a mindful lifestyle and habit-tracking app developed with React Native (Expo), Express.js, and Firebase. It enables users to log daily routines, track wellness metrics, and reflect on personal growth. With a clean interface and secure cloud sync, Life Tracker helps users build consistency and stay aware of their everyday habits."
-}
-
+      "link": "#",
+      "name": "Life Tracker",
+      "imgsrc": "/life_tracker.jpg",
+      "summary": "Life Tracker is a mindful lifestyle and habit-tracking app developed with React Native (Expo), Express.js, and Firebase. It enables users to log daily routines, track wellness metrics, and reflect on personal growth. With a clean interface and secure cloud sync, Life Tracker helps users build consistency and stay aware of their everyday habits."
+    }
   ],
   "social": [
     {
