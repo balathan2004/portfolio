@@ -2,8 +2,8 @@
   "about": {
     "title": "about me",
     "name": " Balasubramaniyam T",
-    "designation": "FullStack TypeScript Developer",
-    "summary": "I am a TypeScript and React Native developer focused on building high-performance mobile applications. I also work with Android using Jetpack Compose and continuously expand my native development skills. Experienced in integrating native functionality with React Native and creating responsive, maintainable applications, I aim to deliver efficient and scalable mobile solutions."
+    "designation": "React Native & Android Developer",
+    "summary": "React Native developer focused on building high-performance cross-platform mobile applications, with strong experience in native Android development using Kotlin and Jetpack Compose. Experienced in integrating native functionality with React Native and building maintainable, responsive mobile applications."
   },
   "resume": {
     "education": [
@@ -11,32 +11,38 @@
       "In Periyar University",
       "2021 - 2024 "
     ],
-    "skills": [
-      "FrontEnd development",
-      "BackEnd development",
-      "FullStack TypeScript ",
-      "React Native with native modules integration",
-      "Native Android Developement with Kotlin"
-    ],
-    "projects worked in": [
-      "Online Learning Platform",
-      "Food Based Social Media",
-      "Audio Book Project",
-      "Quotes Sharing Platform (Collab Quotes)",
-      "Image Sharing Platform (Minimal Blog)",
-      "Notes Taking App (Rough Note)",
-      "Daily Habit Tracker (Life Tracker)",
-      "Expense Tracking App (Bill Book)"
-    ],
-    "programming languages": [
-      "ReactJs",
+
+    "mobile development experience": [
       "React Native",
+      "React Native Native Modules",
+      "Android Development",
+      "Jetpack Compose"
+    ],
+
+    "Technologies": [
+      "React Native",
+      "ReactJs",
+      "Jetpack Compose",
+      "Kotlin",
       "ExpressJs",
       "NextJs",
       "TypeScript",
-      "Java",
-      "Kotlin"
+      "Java"
     ],
+
+    "Mobile projects worked in": [
+      "Quotes Sharing Platform (Collab Quotes)",
+      "Image Sharing Platform (Minimal Blog)",
+      "Notes Taking App (Rough Note)",
+      "Daily Habit Tracker (Life Tracker)"
+    ],
+
+    "web projects worked in": [
+      "Online Learning Platform",
+      "Audio Book Project",
+      "Expense Tracking App (Bill Book)"
+    ],
+
     "languages": ["Tamil", "English"]
   },
   "projects": [
@@ -98,7 +104,7 @@
     {
       "link": "#",
       "name": "Life Tracker",
-      "imgsrc": "/life_tracker.jpg",
+      "imgsrc": "/life_tracker.png",
       "summary": "Life Tracker is a mindful lifestyle and habit-tracking app developed with React Native (Expo), Express.js, and Firebase. It enables users to log daily routines, track wellness metrics, and reflect on personal growth. With a clean interface and secure cloud sync, Life Tracker helps users build consistency and stay aware of their everyday habits."
     }
   ],
