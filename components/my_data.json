@@ -31,10 +31,10 @@
     ],
 
     "Mobile projects worked in": [
+      "Daily Habit Tracker (Life Tracker)",
       "Quotes Sharing Platform (Collab Quotes)",
       "Image Sharing Platform (Minimal Blog)",
-      "Notes Taking App (Rough Note)",
-      "Daily Habit Tracker (Life Tracker)"
+      "Notes Taking App (Rough Note)"
     ],
 
     "web projects worked in": [
@@ -47,41 +47,10 @@
   },
   "projects": [
     {
-      "link": "https://minimal-blog-ivory.vercel.app/blog",
-      "name": "Minimal Blog",
-      "imgsrc": "/minimal_blog.png",
-      "summary": "The Minimal Blog site is built for simplicity, focusing on what matters most: sharing and enjoying each post. Start sharing your thoughts and capturing moments now!"
-    },
-    {
-      "link": "#",
-      "name": "MinimalBlog Android App",
-      "imgsrc": "/minimal_blog_android.jpg",
-      "summary": "MinimalBlog Android App is a lightweight and clean blogging platform designed for mobile users. Built with React Native, it enables users to read, share, and engage with minimalistic yet impactful blog content."
-    },
-    {
-      "link": "https://collab-quotes.vercel.app/",
-      "name": "Collab Quotes",
-      "imgsrc": "/collab_quotes.png",
-      "summary": "Collab Quotes is a platform dedicated to inspiring teamwork and collaboration through meaningful and motivational quotes. It emphasizes the power of unity, sharing wisdom that resonates with individuals and teams striving for collective success."
-    },
-    {
-      "link": "#",
-      "name": "CollabQuotes Android App",
-      "imgsrc": "/collab_quotes_android.jpg",
-      "summary": "CollabQuotes Android App brings the power of collaboration and motivation to mobile devices. Built using React Native, it allows users to access, share, and explore inspiring quotes seamlessly, promoting teamwork and unity."
-    },
-
-    {
-      "link": "https://nextjs-read.vercel.app/",
-      "name": "EBook Reader",
-      "imgsrc": "/ebook.png",
-      "summary": "EBook Reader , enabling users to convert written text into audio files seamlessly. Enhanced user accessibility and experience by integrating text-to-speech functionalities"
-    },
-    {
-      "link": "https://rational-cyberlabs.vercel.app/",
-      "name": "Rational CyberLabs",
-      "imgsrc": "/cyberlabs.jpg",
-      "summary": " Rational Cyberlabs a online learning platform with separate admin and user interfaces, enabling admins to manage videos and learners to view and interact with educational content"
+      "link": "https://github.com/balathan2004/life_tracker",
+      "name": "Life Tracker",
+      "imgsrc": "/life_tracker.png",
+      "summary": "Life Tracker is a mindful lifestyle and habit-tracking app developed with React Native (Expo), Express.js, and Firebase. It enables users to log daily routines, track wellness metrics, and reflect on personal growth. With a clean interface and secure cloud sync, Life Tracker helps users build consistency and stay aware of their everyday habits."
     },
     {
       "link": "https://rough-note.vercel.app",
@@ -90,22 +59,54 @@
       "summary": "Rough Note is a simple and intuitive platform designed for quick and organized note-taking. It allows users to jot down ideas, tasks, and reminders effortlessly, ensuring that important thoughts are never lost."
     },
     {
-      "link": "#",
+      "link": "https://github.com/balathan2004/roughnoteApk",
       "name": "Rough Note Android App",
       "imgsrc": "/rough_note_android.jpg",
       "summary": "Rough Note Android App is a lightweight and user-friendly mobile application developed with React Native (Expo). It helps users quickly capture, organize, and manage their notes on the go. With a minimalistic interface and seamless performance, it ensures that ideas, tasks, and reminders are always at your fingertips."
     },
     {
-      "link": "#",
+      "link": "https://bill-book-beta.vercel.app/",
       "name": "Bill Book",
       "imgsrc": "/bill_book.png",
       "summary": "Bill Book is a comprehensive expense tracking and budgeting web app built with Next.js, React, TypeScript, and Firebase. It empowers users to monitor their daily expenses, categorize spending, and maintain financial records effortlessly. With real-time updates, user authentication, and a clean interface, Bill Book simplifies personal finance management."
     },
+
     {
-      "link": "#",
-      "name": "Life Tracker",
-      "imgsrc": "/life_tracker.png",
-      "summary": "Life Tracker is a mindful lifestyle and habit-tracking app developed with React Native (Expo), Express.js, and Firebase. It enables users to log daily routines, track wellness metrics, and reflect on personal growth. With a clean interface and secure cloud sync, Life Tracker helps users build consistency and stay aware of their everyday habits."
+      "link": "https://collab-quotes.vercel.app/",
+      "name": "Collab Quotes",
+      "imgsrc": "/collab_quotes.png",
+      "summary": "Collab Quotes is a platform dedicated to inspiring teamwork and collaboration through meaningful and motivational quotes. It emphasizes the power of unity, sharing wisdom that resonates with individuals and teams striving for collective success."
+    },
+    {
+      "link": "https://github.com/balathan2004/collabQuotes_apk",
+      "name": "CollabQuotes Android App",
+      "imgsrc": "/collab_quotes_android.jpg",
+      "summary": "CollabQuotes Android App brings the power of collaboration and motivation to mobile devices. Built using React Native, it allows users to access, share, and explore inspiring quotes seamlessly, promoting teamwork and unity."
+    },
+    {
+      "link": "https://rational-cyberlabs.vercel.app/",
+      "name": "Rational CyberLabs",
+      "imgsrc": "/cyberlabs.jpg",
+      "summary": " Rational Cyberlabs a online learning platform with separate admin and user interfaces, enabling admins to manage videos and learners to view and interact with educational content"
+    },
+    {
+      "link": "https://minimal-blog-ivory.vercel.app/blog",
+      "name": "Minimal Blog",
+      "imgsrc": "/minimal_blog.png",
+      "summary": "The Minimal Blog site is built for simplicity, focusing on what matters most: sharing and enjoying each post. Start sharing your thoughts and capturing moments now!"
+    },
+    {
+      "link": "https://github.com/balathan2004/MinimalBlogApk",
+      "name": "MinimalBlog Android App",
+      "imgsrc": "/minimal_blog_android.jpg",
+      "summary": "MinimalBlog Android App is a lightweight and clean blogging platform designed for mobile users. Built with React Native, it enables users to read, share, and engage with minimalistic yet impactful blog content."
+    },
+
+    {
+      "link": "https://nextjs-read.vercel.app/",
+      "name": "EBook Reader",
+      "imgsrc": "/ebook.png",
+      "summary": "EBook Reader , enabling users to convert written text into audio files seamlessly. Enhanced user accessibility and experience by integrating text-to-speech functionalities"
     }
   ],
   "social": [
